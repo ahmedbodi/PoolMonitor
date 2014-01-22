@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65B842EA-5DE5-4D93-8EBC-F691360D71CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CryptoExpert_Pool_Monitor.My.MyApplication</StartupObject>
+    <RootNamespace>CryptoExpert_Pool_Monitor</RootNamespace>
+    <AssemblyName>CryptoExpert Pool Monitor-WIN</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CryptoExpert Pool Monitor-WIN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CryptoExpert Pool Monitor-WIN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExtensionsMadeEasy.ClientAPI">
+      <HintPath>..\packages\ExtensionsMadeEasy.ClientAPI.1.2\lib\ExtensionsMadeEasy.ClientAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroThemeExtension.Client">
+      <HintPath>..\packages\LightSwitchMetroTheme.2.2.3\lib\MetroThemeExtension.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OSC.Designer.vb">
+      <DependentUpon>OSC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OSC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BTE.Designer.vb">
+      <DependentUpon>BTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GME.Designer.vb">
+      <DependentUpon>GME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YUM.Designer.vb">
+      <DependentUpon>YUM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YUM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAG.Designer.vb">
+      <DependentUpon>TAG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TAG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GFT.Designer.vb">
+      <DependentUpon>GFT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GFT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QBT.Designer.vb">
+      <DependentUpon>QBT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QBT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPC.Designer.vb">
+      <DependentUpon>RPC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NRB.Designer.vb">
+      <DependentUpon>NRB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NRB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOON.Designer.vb">
+      <DependentUpon>MOON.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOON.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOGE.Designer.vb">
+      <DependentUpon>DOGE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOGE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HBN.Designer.vb">
+      <DependentUpon>HBN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HBN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOT.Designer.vb">
+      <DependentUpon>LOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASR.Designer.vb">
+      <DependentUpon>ASR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ASR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARG.Designer.vb">
+      <DependentUpon>ARG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ARG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DGC.Designer.vb">
+      <DependentUpon>DGC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DGC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WebRequest.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ARG.resx">
+      <DependentUpon>ARG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BTE.resx">
+      <DependentUpon>BTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOGE.resx">
+      <DependentUpon>DOGE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFT.resx">
+      <DependentUpon>GFT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GME.resx">
+      <DependentUpon>GME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HBN.resx">
+      <DependentUpon>HBN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOT.resx">
+      <DependentUpon>LOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOON.resx">
+      <DependentUpon>MOON.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NRB.resx">
+      <DependentUpon>NRB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OSC.resx">
+      <DependentUpon>OSC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QBT.resx">
+      <DependentUpon>QBT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPC.resx">
+      <DependentUpon>RPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAG.resx">
+      <DependentUpon>TAG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YUM.resx">
+      <DependentUpon>YUM.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroThemeExporter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ExtensionsMadeEasy.ClientAPI</id>
+    <version>1.2</version>
+    <title>ExtensionsMadeEasy Client API</title>
+    <authors>Jan Van der Haegen</authors>
+    <owners>Jan Van der Haegen</owners>
+    <iconUrl>http://a2.twimg.com/profile_images/1329973027/avatar.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>(ExtensionsMadeEasy Nuget Package)
+Client API, required for all ExtensionsMadeEasy Nuget Packages .  Instructions at http://wp.me/p1J0PO-2x</description>
+    <summary>(ExtensionsMadeEasy Nuget Package)
+Client API, required for all ExtensionsMadeEasy Nuget Packages .  Instructions at http://wp.me/p1J0PO-2x</summary>
+    <copyright>2011 @janvanderhaegen</copyright>
+  </metadata>
+</package>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LightSwitchMetroTheme</id>
+    <version>2.2.3</version>
+    <title>LightSwitch Metro Theme</title>
+    <authors>Jan Van der Haegen</authors>
+    <owners>Jan Van der Haegen</owners>
+    <iconUrl>http://a2.twimg.com/profile_images/1329973027/avatar.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>(ExtensionsMadeEasy Nuget Package)
+LightSwitch Metro Theme in a Nuget package.  Instructions at http://wp.me/p1J0PO-2x</description>
+    <summary>(ExtensionsMadeEasy Nuget Package)
+LightSwitch Metro Theme in a Nuget package.  Instructions at http://wp.me/p1J0PO-2x</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>LightSwitch Metro Theme</tags>
+    <dependencies>
+      <dependency id="ExtensionsMadeEasy.ClientAPI" version="1.2" />
+    </dependencies>
+  </metadata>
+</package>

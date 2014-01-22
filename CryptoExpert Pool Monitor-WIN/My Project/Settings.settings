@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ARGurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://arg.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="DGCurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://dgc.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="GFTurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://gft.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="QBTurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://qbt.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="HBNurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://hbn.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="NRBurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://nrb.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="TAGurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://tag.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="DOGEurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://doge.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="LOTurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://lot.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="MOONurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://moon.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="RPCurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://rpc.cryptocoinpools.co.uk/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="ASRurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://asr.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+    <Setting Name="YUMurl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)"> http://yum.cryptopools.com/index.php?page=api&amp;action=public</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
